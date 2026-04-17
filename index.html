@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humboldt Glass Academy | Glass Pipe Making Masterclass</title>
+    
+    <meta name="description" content="Professional glass pipe making videos. Master remastered OG borosilicate techniques from the industry's founding architects.">
+    <link rel="icon" type="image/png" href="images/favicon-humboldt.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-black: #000000;
+            --card-gray: #0D0D0D;
+            --accent-blue: #00D4FF;
+            --accent-orange: #FF8C00;
+            --text-silver: #F0F0F0;
+            --text-dim: #A0A0A0;
+        }
+
+        body {
+            margin: 0; padding: 0; font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-black); color: var(--text-silver);
+            line-height: 1.8; overflow-x: hidden;
+        }
+
+        h1, h2, h3 { font-family: 'Playfair Display', serif; font-weight: 700; }
+
+        /* HERO SECTION - Fixed Path */
+        header {
+            height: 90vh; display: flex; flex-direction: column;
+            justify-content: center; align-items: center; text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), 
+                        url('images/hero-glassblowing-mastery.jpg') no-repeat center center/cover;
+            padding: 20px;
+        }
+
+        .cta-btn {
+            padding: 18px 45px; background: linear-gradient(135deg, var(--accent-orange), #CC7000);
+            color: white; text-decoration: none; font-weight: bold; border-radius: 4px;
+            text-transform: uppercase; letter-spacing: 2px; transition: 0.3s ease;
+            display: inline-block; border: none; cursor: pointer;
+        }
+
+        .cta-btn:hover { transform: scale(1.03); box-shadow: 0 0 20px rgba(255,140,0,0.4); }
+
+        /* GRID SYSTEM */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+
+        .module-card {
+            background: var(--card-gray); border: 1px solid #1a1a1a; padding: 0;
+            transition: 0.3s ease; overflow: hidden; border-bottom: 4px solid var(--accent-blue);
+        }
+
+        .module-card img { width: 100%; height: 250px; object-fit: cover; }
+        .module-text { padding: 30px; }
+        .module-card:hover { border-bottom-color: var(--accent-orange); transform: translateY(-5px); }
+
+        /* FOOTER */
+        footer { padding: 60px 20px; text-align: center; background: #050505; color: #444; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/humboldt-logo-shield.png" alt="Humboldt Glass Academy" style="width: 180px; margin-bottom: 30px;">
+        <h1 style="font-size: 3.5rem; max-width: 900px; line-height: 1.1; margin: 0 0 20px;">The Legacy <span style="color:var(--accent-orange)">Boro Masterclass</span></h1>
+        <p style="font-size: 1.2rem; max-width: 700px; color: var(--text-dim); margin-bottom: 40px;">Unlock 15+ hours of remastered glass pipe making videos from the industry's founding architects.</p>
+        <a href="#pricing" class="cta-btn">Unlock the Digital Vault</a>
+    </header>
+
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 60px;">The Curriculum Vault</h2>
+            <div class="grid">
+                <div class="module-card">
+                    <img src="images/module-01-sherlock-technique.jpg" alt="Sherlock Technique">
+                    <div class="module-text">
+                        <h3>01: The Sherlock</h3>
+                        <p>Master technical curve formation and structural balance.</p>
+                    </div>
+                </div>
+                <div class="module-card">
+                    <img src="images/module-02-inside-out-art.jpg" alt="Inside Out Artistry">
+                    <div class="module-text">
+                        <h3>02: Inside-Out</h3>
+                        <p>Learn the secrets of internal patterns and depth layering.</p>
+                    </div>
+                </div>
+                <div class="module-card">
+                    <img src="images/module-03-dichroic-fuming.jpg" alt="Dichroic Fuming">
+                    <div class="module-text">
+                        <h3>03: The Legacy Finish</h3>
+                        <p>Advanced silver and gold fuming for deep space aesthetics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" style="padding: 120px 20px; background: radial-gradient(circle at center, #111, #000); text-align: center;">
+        <div style="max-width: 1000px; margin: 0 auto; border: 1px solid var(--accent-orange); padding: 60px 20px; position: relative; background: rgba(0,0,0,0.6); backdrop-filter: blur(10px);">
+            <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); background: var(--accent-orange); color: #000; padding: 5px 25px; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px;">
+                Limited Founding Member Offer
+            </div>
+            <h2 style="font-size: 3rem; margin-bottom: 10px;">The Complete Legacy Bundle</h2>
+            <p style="color: var(--accent-blue); font-weight: bold; margin-bottom: 40px; letter-spacing: 1px;">9 ORIGINAL MODULES + 3 REMASTERED BONUSES</p>
+            <img src="images/bundle-digital-vault-mockup.png" alt="Digital Vault Bundle" style="width: 100%; max-width: 800px; margin-bottom: 40px; box-shadow: 0 20px 50px rgba(0,0,0,0.8);">
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-bottom: 50px; text-align: left;">
+                <ul style="list-style: none; padding: 0; color: var(--text-dim); font-size: 1.1rem;">
+                    <li>✔ Instant Lifetime Access</li>
+                    <li>✔ HD Digitally Remastered Video</li>
+                    <li>✔ Private "Vault" Community Access</li>
+                </ul>
+                <ul style="list-style: none; padding: 0; color: var(--text-dim); font-size: 1.1rem;">
+                    <li>✔ Downloadable Checklists</li>
+                    <li>✔ Bonus: Fuming Secret Recipes</li>
+                    <li>✔ Certificate of Completion</li>
+                </ul>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <span style="text-decoration: line-through; color: #555; font-size: 1.5rem; margin-right: 15px;">$899</span>
+                <span style="font-size: 5rem; font-family: 'Playfair Display', serif; color: #fff;">$299</span>
+            </div>
+            <a href="#" class="cta-btn" style="width: 100%; max-width: 500px; font-size: 1.4rem;">Unlock the Digital Vault Now</a>
+            <p style="margin-top: 30px; font-size: 0.8rem; color: var(--text-dim);">Secure SSL Encrypted Checkout</p>
+        </div>
+    </section>
+
+    <section style="padding: 80px 20px; text-align: center; background: #000; border-top: 1px solid #111;">
+        <div style="max-width: 700px; margin: 0 auto;">
+            <h3 style="color: var(--accent-blue);">The "Bench-Ready" Guarantee</h3>
+            <p style="color: var(--text-dim);">If you don't feel these techniques have fundamentally improved your glassblowing within the first 14 days, we will refund your investment in full. We are here to preserve the craft, not just sell videos.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Humboldt Glass Academy. All Rights Reserved. <br>
+        Digitally Remastered Boro Curriculum.
+    </footer>
+
+</body>
+</html>
